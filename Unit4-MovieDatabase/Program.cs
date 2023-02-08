@@ -73,17 +73,3 @@ do
 } while (Console.ReadLine() == "y");
 
 Console.WriteLine("Goodbye!");
-
- static bool choiceValidation()
-{
-    if (true)
-    {
-        return true;
-
-    }
-
-    else
-    {
-        return false;
-    }
-}
