@@ -13,3 +13,18 @@ C:\Users\middl\source\repos\Unit4-MovieDatabase App\Unit4-MovieDatabase\obj\Debu
 C:\Users\middl\source\repos\Unit4-MovieDatabase App\Unit4-MovieDatabase\obj\Debug\net6.0\Unit4-MovieDatabase.pdb
 C:\Users\middl\source\repos\Unit4-MovieDatabase App\Unit4-MovieDatabase\obj\Debug\net6.0\Unit4-MovieDatabase.genruntimeconfig.cache
 C:\Users\middl\source\repos\Unit4-MovieDatabase App\Unit4-MovieDatabase\obj\Debug\net6.0\ref\Unit4-MovieDatabase.dll
+C:\Users\nikku\source\repos\Unit4-MovieDatabase\Unit4-MovieDatabase\bin\Debug\net6.0\Unit4-MovieDatabase.exe
+C:\Users\nikku\source\repos\Unit4-MovieDatabase\Unit4-MovieDatabase\bin\Debug\net6.0\Unit4-MovieDatabase.deps.json
+C:\Users\nikku\source\repos\Unit4-MovieDatabase\Unit4-MovieDatabase\bin\Debug\net6.0\Unit4-MovieDatabase.runtimeconfig.json
+C:\Users\nikku\source\repos\Unit4-MovieDatabase\Unit4-MovieDatabase\bin\Debug\net6.0\Unit4-MovieDatabase.dll
+C:\Users\nikku\source\repos\Unit4-MovieDatabase\Unit4-MovieDatabase\bin\Debug\net6.0\Unit4-MovieDatabase.pdb
+C:\Users\nikku\source\repos\Unit4-MovieDatabase\Unit4-MovieDatabase\obj\Debug\net6.0\Unit4-MovieDatabase.csproj.AssemblyReference.cache
+C:\Users\nikku\source\repos\Unit4-MovieDatabase\Unit4-MovieDatabase\obj\Debug\net6.0\Unit4-MovieDatabase.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\nikku\source\repos\Unit4-MovieDatabase\Unit4-MovieDatabase\obj\Debug\net6.0\Unit4-MovieDatabase.AssemblyInfoInputs.cache
+C:\Users\nikku\source\repos\Unit4-MovieDatabase\Unit4-MovieDatabase\obj\Debug\net6.0\Unit4-MovieDatabase.AssemblyInfo.cs
+C:\Users\nikku\source\repos\Unit4-MovieDatabase\Unit4-MovieDatabase\obj\Debug\net6.0\Unit4-MovieDatabase.csproj.CoreCompileInputs.cache
+C:\Users\nikku\source\repos\Unit4-MovieDatabase\Unit4-MovieDatabase\obj\Debug\net6.0\Unit4-MovieDatabase.dll
+C:\Users\nikku\source\repos\Unit4-MovieDatabase\Unit4-MovieDatabase\obj\Debug\net6.0\refint\Unit4-MovieDatabase.dll
+C:\Users\nikku\source\repos\Unit4-MovieDatabase\Unit4-MovieDatabase\obj\Debug\net6.0\Unit4-MovieDatabase.pdb
+C:\Users\nikku\source\repos\Unit4-MovieDatabase\Unit4-MovieDatabase\obj\Debug\net6.0\Unit4-MovieDatabase.genruntimeconfig.cache
+C:\Users\nikku\source\repos\Unit4-MovieDatabase\Unit4-MovieDatabase\obj\Debug\net6.0\ref\Unit4-MovieDatabase.dll

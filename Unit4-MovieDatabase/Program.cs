@@ -1,4 +1,6 @@
-﻿using Unit4_MovieDatabase;
+﻿using System.ComponentModel;
+using System.Security.Cryptography.X509Certificates;
+using Unit4_MovieDatabase;
 
 List<Movies> movies = new List<Movies>()
 {
@@ -27,41 +29,61 @@ List<Movies> movies = new List<Movies>()
     new Movies() { Title = "Die Hard", Category= "Action" },
 };
 
-List<Categories> categories = new List<Categories>()
+List<Menu> categories = new List<Menu>()
 {
-    new Categories() { Category = "Drama"},
-    new Categories() { Category = "Action"},
-    new Categories() { Category = "Thriller"},
-    new Categories() { Category = "Sci-Fi"},
-    new Categories() { Category = "Fantasy"},
-    new Categories() { Category = "Musical"},
-    new Categories() { Category = "Horror"},
+    new Menu() { Number = 1, Category = "Drama"},
+    new Menu() { Number = 2, Category = "Action"},
+    new Menu() { Number = 3, Category = "Thriller"},
+    new Menu() { Number = 4, Category = "Sci-Fi"},
+    new Menu() { Number = 5, Category = "Fantasy"},
+    new Menu() { Number = 6, Category = "Musical"},
+    new Menu() { Number = 7, Category = "Horror"},
 };
 
 Console.WriteLine("Welcome to the Movie List Application!" + "\n");
 Console.WriteLine("There are " + movies.Count + " movies in this list.");
 
+
 do
 {
     Console.WriteLine("What category are you interested in?");
-    foreach (Categories category in categories)
+    foreach (Menu menuNumber in categories)
     {
-        Console.Write($"{category.Category}"+ " ");
+        Console.WriteLine($"{menuNumber.Category}"+ " ");
     }
     Console.WriteLine("\n");
 
     string userInput = Console.ReadLine();
- 
+    bool isValid = false;
     foreach (Movies film in movies)
     {
+        
         if (film.Category == userInput)
         {
+            isValid = true;
             Console.WriteLine($"{film.Title}");
         }
     }
-
+    if (isValid == false)
+    {
+        Console.WriteLine("Category is not a valid choice.");
+    }
+   
     Console.WriteLine("Continue?");
 } while (Console.ReadLine() == "y");
 
-
 Console.WriteLine("Goodbye!");
+
+ static bool choiceValidation()
+{
+    if (true)
+    {
+        return true;
+
+    }
+
+    else
+    {
+        return false;
+    }
+}

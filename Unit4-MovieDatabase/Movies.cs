@@ -12,8 +12,9 @@ namespace Unit4_MovieDatabase
         public string Category;
     }
 
-    public class Categories
+    public class Menu
     {
+        public int Number;
         public string Category;
     }
 }
