@@ -53,12 +53,13 @@ do
     }
     Console.WriteLine("\n");
 
-    string userInput = Console.ReadLine();
+    string userInput = Console.ReadLine().ToLower();
+
     bool isValid = false;
     foreach (Movies film in movies)
     {
         
-        if (film.Category == userInput)
+        if (film.Category.ToLower() == userInput)
         {
             isValid = true;
             Console.WriteLine($"{film.Title}");
@@ -68,7 +69,7 @@ do
     {
         Console.WriteLine("Category is not a valid choice.");
     }
-   
+
     Console.WriteLine("Continue?");
 } while (Console.ReadLine() == "y");
 
